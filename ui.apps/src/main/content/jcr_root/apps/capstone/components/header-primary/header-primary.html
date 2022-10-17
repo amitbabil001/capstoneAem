@@ -1,0 +1,16 @@
+<sly data-sly-use.primaryHeader="com.pwc.capstone.core.models.PrimaryHeaderModel" />
+<div class="container-fluid fh5co_header_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 fh5co_mediya_center">
+        <a href="#" class="color_fff fh5co_mediya_setting">
+          <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;${primaryHeader.dateStr} </a>
+        <div class="d-inline-block fh5co_trading_posotion_relative">
+          <a href="#" class="treding_btn">${primaryHeader.trendingText}</a>
+          <div class="fh5co_treding_position_absolute"></div>
+        </div>
+        <a href="#" class="color_fff fh5co_mediya_setting">${primaryHeader.trendingDesc}</a>
+      </div>
+    </div>
+  </div>
+</div>

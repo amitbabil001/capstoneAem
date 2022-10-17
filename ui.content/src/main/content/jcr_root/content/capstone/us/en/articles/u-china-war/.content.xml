@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-14T11:50:46.391+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="U china war"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <banner_article
+                jcr:created="{Date}2022-10-10T15:52:02.694+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T16:09:52.930+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/banner-article"/>
+            <container
+                jcr:created="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T19:28:01.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T19:28:26.756+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T11:50:46.387+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/download.jpg"
+                    bannerText="Engaging China on Strategic Stability and Mutual Vulnerability"/>
+                <article_text
+                    jcr:created="{Date}2022-10-12T16:48:25.833+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-14T11:39:18.003+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/article-text"
+                    text="&lt;p>the United States and China are like a quarrelling married couple who tried therapy for one or two appointments, found it dissatisfying, and then alternated in making excuses for not trying again, perhaps with a different therapist or format. Each says they have tried and the other doesn’t listen or understand. Both suspect that the other isn’t saying what they really feel or want; what they really feel is hostility and distrust and what they really want is to get richer and more powerful without being hassled or attacked. It would be easier if they could just go their separate ways, but the property and wealth they depend on will be lost (or at least severely diminished) if they split up or do each other harm.&lt;/p>&#xd;&#xa;&lt;p>This paper suggests that U.S. and allied interests require persistence in inviting China to dialogue on strategic stability; to demonstrate goodwill, the United States should acknowledge mutual vulnerability as a fact and necessary policy. The need for both moves is reflected in the fact that neither government has defined what it might mean by stability or mutual vulnerability.&lt;/p>&#xd;&#xa;&lt;p>To help test intentions and prompt harder thinking, the paper plays the role of therapist and offers definitions of both concepts—strategic stability and mutual vulnerability—so that the two sides can critique them more freely and without recrimination. These definitions are broader and deeper than usual, reflecting the growing problem of managing escalation of conventional conflict to nuclear war, the scenario that drives U.S. and Chinese concerns and military posturing. Further, broader definitions are necessary to comprehend the dangers stemming from the entanglement of conventional, cyber, and nuclear weapons and command and control systems.&lt;/p>&#xd;&#xa;&lt;p>The paper then sketches four benefits of declaring mutual vulnerability, contrary to opponents of the idea, before discussing steps that the United States and China could subsequently take to reflect and build each other’s confidence in such a policy.&amp;nbsp;&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>Finally, if perceived U.S. requirements in the future will be greater than the arsenal needed to deter or defeat Russia or China alone, how will Russia and China be persuaded not to try to build up to balance the additional U.S. force? In other words, if the United States is in two separate but interacting arms races (and deterrence relationships), how could each opponent (China and Russia) be persuaded to negotiate limits on their arsenal lower than the total the United States would insist on possessing to deter two nuclear opponents? Answers to these questions will affect strategic stability and mutual vulnerability of all parties but will take a long time to develop. To begin the process, the paper suggests asking Chinese leaders whether their silence on Putin’s nuclear first-use threats means that China has changed its own policy on nuclear use or that it never took a no-first-use policy seriously in the first place. Is China concerned that the capabilities that the United States and its allies may develop to strengthen defenses against Russia could be used against China too, and if so, might arms control be a wiser approach?&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                    trendingText="Engaging China on Strategic Stability and Mutual Vulnerability"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-13T18:32:25.981+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:32:25.981+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

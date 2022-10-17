@@ -1,0 +1,8 @@
+<sly data-sly-use.banner="com.pwc.capstone.core.models.BannerArticleModel" />
+<div id="fh5co-title-box" style="background-image: url(${banner.bannerImage @context = 'unsafe'});" background-position: -25px -164.919px;data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="page-title">
+    <span>${'MMMM dd, yyyy' @format = pageProperties.jcr:created}</span>
+    <h2>${banner.bannerText}</h2>
+  </div>
+</div>

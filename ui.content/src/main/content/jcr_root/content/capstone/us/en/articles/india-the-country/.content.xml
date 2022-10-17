@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-13T19:10:55.830+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="India the country"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <banner_article
+                jcr:created="{Date}2022-10-10T15:52:02.694+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T16:09:52.930+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/banner-article"/>
+            <container
+                jcr:created="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T19:28:01.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T19:28:26.756+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T19:10:16.101+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/Study-Mat-Indian-Economy.jpg"
+                    bannerText="Indian Economy May Grow At 6-7% In FY23: PHDCCI"/>
+                <article_text
+                    jcr:created="{Date}2022-10-13T18:33:09.362+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T19:10:55.826+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/article-text"
+                    text="&lt;p>The statement comes a day after the International Monetary Fund (IMF) cut its economic growth forecast for India to 6.8 per cent in 2022.&lt;/p>&#xd;&#xa;&lt;p>Industry chamber PHDCCI on Wednesday said going by the current trend, it is expecting the Indian economy to grow at 6-7 per cent during current fiscal year.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;Chamber's new president Saket Dalmia said production has bounced back and there is a &amp;quot;big&amp;quot; demand in the country.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;The statement comes a day after the International Monetary Fund (IMF) cut its economic growth forecast for India to 6.8 per cent in 2022.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;The Reserve Bank of India too has cut the economic growth projection for FY23 to 7 per cent from 7.2 per cent estimated earlier on account of extended geopolitical tensions and aggressive monetary policy tightening globally.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;Dalmia also said the chamber has identified 75 potential products such as agriculture and chemicals to promote their exports in 75 countries like the US and Europe to help India achieve trade the target of USD 750 billion by 2027.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;He said the US, Canada, Germany, France, the UK, Japan, the UAE, and China, among others would be the major focused markets to boost exports of these goods. The other products include textiles, auto, and pharmaceutical items.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;&amp;quot;We are focusing on export of 75 products to 75 potential countries in 75 months which will help India achieve a trade target of USD 750 billion by 2027,&amp;quot; Dalmia told reporters here.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;He also said cost of capital is a key challenge for the MSME sector and the chamber has requested the RBI and the government to look into the issues.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;Cost and access to capital is a big challenge and banks have &amp;quot;not done anything or not enough&amp;quot; at this front, he added.&lt;br>&#xd;&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br>&#xd;&#xa;The new president informed that the chamber will set up a centre of innovation in green hydrogen. &amp;quot;We are also planning a new initiative on facilitating women startups to increase contribution of women-owned business in the economy,&amp;quot; he added.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                    trendingText="Indian Economy May Grow At 6-7% In FY23: PHDCCI"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-13T18:33:20.224+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:33:20.224+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

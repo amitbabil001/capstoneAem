@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-13T19:07:12.846+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mulaim Singh Dies"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <banner_article
+                jcr:created="{Date}2022-10-10T15:52:02.694+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T16:09:52.930+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/banner-article"/>
+            <container
+                jcr:created="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T19:28:01.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T19:28:26.756+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T19:07:12.839+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/mulam.jpg"
+                    bannerText="Netaji cremated at native village Saifai; Rajnath Singh, Tejashwi Yadav, Mallikarjun Kharge attend last rites"/>
+                <article_text
+                    jcr:created="{Date}2022-10-13T18:44:22.254+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T19:05:36.443+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/article-text"
+                    text="&lt;p>SP Founder&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/article/political-pulse/mulayam-singh-yadav-profile-8199959/&quot;>Mulayam Singh&lt;/a>&amp;nbsp;Yadav Last Rites Live Updates:&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/about/samajwadi-party/&quot;>Samajwadi Party&lt;/a>&amp;nbsp;founder Mulayam Singh Yadav, who died while undergoing treatment at Medanta Hospital in Gurugram on Monday (October 10), was cremated at his native village Saifai in Uttar Pradesh on Tuesday. Union Defence Minister Rajnath Singh, Congress’s Mallikarjun Kharge, Bihar Deputy CM Tejashwi Yadav and others attended the last rites of the former UP CM. Telugu Desam Party chief N&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/about/n-chandrababu-naidu/&quot;>Chandrababu Naidu&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/about/bjp/&quot;>BJP&lt;/a>&amp;nbsp;leader Rita Bahuguna Joshi also paid their last respects to the leader at Saiafi ground.&lt;/p>&#xd;&#xa;&lt;p>Meanwhile, a sea of people gathered for the last rites of Mulayam Singh Yadav at his native Saifai village in Etawah district of Uttar Pradesh, amid the cloudy sky and intermittent morning drizzle. His mortal remains were brought to Saifai Monday evening. According to an official statement issued in&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/section/cities/lucknow/&quot;>Lucknow&lt;/a>, UP Chief Minister Yogi Adityanath had reached Saifai and paid tributes to Yadav yesterday evening. He also paid floral tributes on behalf of Prime Minister&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/about/narendra-modi/&quot;>Narendra Modi&lt;/a>&amp;nbsp;and Uttar Pradesh Governor Anandiben Patel and the Uttar Pradesh government, the release said&lt;/p>&#xd;&#xa;&lt;p>Yadav, born on November 22, 1939, rose in UP politics in a period of intense social and political ferment after the 1970s. Emerging as a socialist leader, Mulayam established himself as an OBC stalwart, capturing a swathe of political space vacated by the Congress. He first took oath as UP’s 15th CM in 1989, which marked the year when the Congress was voted out, failing to return to power in the state ever since.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                    trendingText="Netaji cremated at native village Saifai; Rajnath Singh, Tejashwi Yadav, Mallikarjun Kharge attend last rites"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-13T18:45:09.320+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:45:09.320+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-10-13T18:52:03.503+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Eknaath Sindhe ReBEL"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <banner_article
+                jcr:created="{Date}2022-10-10T15:52:02.694+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T16:09:52.930+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/banner-article"/>
+            <container
+                jcr:created="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T19:28:01.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <banner_article
+                    jcr:created="{Date}2022-10-10T19:28:26.756+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:51:31.041+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/banner-article"
+                    bannerImage="/content/dam/capstone/images/eknath.jpg"
+                    bannerText="Andheri bypoll: BJP &amp; Shinde for joint contest, Uddhav nominee alleges pressure"/>
+                <article_text
+                    jcr:created="{Date}2022-10-13T18:46:59.677+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:48:00.256+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/article-text"
+                    text="&lt;p>The Uddhav Thackeray-led Shiv Sena faction alleged that Rutuja Latke, its prospective candidate for the November 3 byelection in Mumbai, is being pressured by the rival camp amid poaching attempts.&lt;/p>&#xd;&#xa;&lt;p>&amp;quot;The chief minister and I will discuss and decide our candidate for the election,&amp;quot; said Fadnavis, a day after the Election Commission allotted ‘dhal talwar’ or 'two swords and a shield as its symbol to the CM-headed group named Balasahebanchi Shiv Sena.&lt;/p>&#xd;&#xa;&lt;p>In another development, the Uddhav Thackeray-led Shiv Sena faction alleged that Rutuja Latke, its prospective candidate for the November 3 byelection in Mumbai, is being pressured by the rival camp amid poaching attempts.&lt;/p>&#xd;&#xa;&lt;p>Latke, who has submitted her resignation as an administrator in a BMC ward, later appeared before the media with Sena leader Vishwanath Mahadeshwar and said, &amp;quot;If I contest the election, it will be only in the symbol of mashal (flaming torch allotted to Thackeray camp).&amp;quot;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                    trendingText="Andheri bypoll: BJP &amp; Shinde for joint contest, Uddhav nominee alleges pressure"/>
+                <trending_articles
+                    jcr:created="{Date}2022-10-13T18:52:03.496+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-13T18:52:03.496+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/trending-articles"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

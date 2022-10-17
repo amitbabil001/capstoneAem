@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-10-14T12:29:24.763+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="capstone/components/article-page">
+        <root
+            cq:styleIds="[1665665489506]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <header_primary
+                jcr:created="{Date}2022-10-10T15:51:49.362+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-12T15:13:34.253+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-primary"
+                trendingDesc=" Instagram’s big redesign goes live with black-and-white app"
+                trendingText="Trending"/>
+            <header_secondary
+                jcr:created="{Date}2022-10-10T15:51:52.500+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-12T15:14:08.290+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-secondary"
+                displayLanguages="true"
+                languages="[English,french,German,Portugues]"
+                logo="/content/dam/capstone/images/logo.png"/>
+            <header_navigation
+                jcr:created="{Date}2022-10-10T15:51:56.051+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-14T12:29:24.758+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/header-navigation"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/capstone/us/en"
+                structureStart="1"/>
+            <container
+                jcr:created="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-10T19:27:46.852+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2022-10-10T19:27:53.893+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-10-12T15:14:35.567+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/footer"
+                aboutText="this is news 24 page"
+                footerLogo="/content/dam/capstone/images/logo.png"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
